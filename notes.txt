@@ -1,0 +1,19 @@
+Use App Designer to create GUI to simulate Buffon's Needle with squares to estimate pi
+buffon's needle:
+drop needles onto a floor with a set of lines (distanced by 2*length of the needles) and record how many matches are intersecting with the lines on the floor.
+then the ratio (total matches)/(matches that intersected a line) ~= Pi
+
+Draw a set of axes
+draw the set of floor lines
+generate squares
+draw squares
+check intersections for squares
+
+
+extend the gui to estimate sqrt(2) using the formula in the given reference
+
+Extend the gui so that it drops needles on square tiles to estimate pi using the formula in the given reference
+
+the user must be able to select which task is run
+the user can adjust the number of needles, squares, planks of wood and square tiles
+the program should allow at least 1,000,000 needles/squares to be dropped
